@@ -1,0 +1,91 @@
+
+@media (max-width: 400px) {
+	/* mobile style rules */
+    
+    #container {
+	
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+	column-gap: 0.5em;
+}
+
+#title {
+	grid-column: 2 / span 3;
+    grid-row: 1;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 200%;
+}
+
+#login{
+	grid-column:  2 / span 1;
+	grid-row: 2 / span 1;
+    padding: 10px;
+    display: block;
+    
+}
+
+#login button{
+padding:10px;
+    
+}
+
+input{
+padding: 10px;
+}
+
+#login a{
+
+}
+
+#menu {
+	grid-column: 2 / span 1;
+	grid-row: 3 /span 1;
+    
+}
+    
+    #menu ul {
+        display: block;
+    }
+    
+
+#main  {
+	grid-column: 2 / span 1;
+    grid-row: 9;
+}
+
+
+#profile{
+	grid-column: 3;
+	grid-row: 5;
+}
+#profile button{
+    grid-column: 2;
+    grid-row:6;
+    padding: 10px;
+}
+
+#profile img{
+width: 20%;
+}
+
+
+
+#user-info{
+	grid-column:  1/ span 1;
+	grid-row: 2;
+}
+
+
+
+
+#social {
+	grid-column: 2 / span 1;
+    grid-row: 10;
+    
+}
+
+}
+
+@media (min-width: 401px) and (max-width: 600px) {
+	/* tablet style rules */
+}
